@@ -56,5 +56,11 @@ Page({
     this.setData({
       loading : true
     })
+  },
+  switch1Change : function(e){
+    console.log("switch 1 is changing : ", e.detail.value)
+  },
+  switch2Change : function(e){
+    console.log("switch 2 is changing : ", e.detail.value)
   }
 })

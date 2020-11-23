@@ -9,4 +9,8 @@
   <form bindsubmit="bindFormSubmit">
     <button type="primary" form-type="submit" loading="{{loading}}">Sign In</button>
   </form>
+  <view class="switchView">
+    <switch checked bindchange="switch1Change">Switch One</switch>
+    <switch bindchange="switch2Change">Switch Two</switch>
+  </view>
 </view>
