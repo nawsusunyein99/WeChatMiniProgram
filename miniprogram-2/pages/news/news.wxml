@@ -5,4 +5,7 @@
   <view wx:for="{{stories}}" wx:key="story" id="{{index}}">
     {{item.story}}
   </view>
+  <view class="btnContainer">
+    <button type="primary" bindtap="increaseCount">Increment : {{count}}</button>
+  </view>
 </view>

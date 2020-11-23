@@ -6,7 +6,8 @@ Page({
    */
   data: {
     header : "This is a big title",
-    stories : [{story : "Mingalarpar"}, {story : "ni hao"},{ story : "bonjour"}]
+    stories : [{story : "Mingalarpar"}, {story : "ni hao"},{ story : "bonjour"}],
+    count : 0
   },
 
   /**
@@ -63,5 +64,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  increaseCount : function (){
+   this.setData({
+     count : this.data.count + 1
+   })
   }
 })
