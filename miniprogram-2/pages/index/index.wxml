@@ -6,4 +6,7 @@
     <navigator url="/pages/news/news" open-type="switchTab">Go To News</navigator>
   </view>
 
+  <form bindsubmit="bindFormSubmit">
+    <button type="primary" form-type="submit" loading="{{loading}}">Sign In</button>
+  </form>
 </view>
