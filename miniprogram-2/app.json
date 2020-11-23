@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/news/news"
+    "pages/news/news",
+    "pages/poems/poems"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,18 +11,21 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
   },
-  "tabBar" : {
+  "tabBar": {
     "backgroundColor": "green",
     "borderStyle": "black",
     "selectedColor": "#D03232",
     "color": "#131313",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "Index"
-    },{
-      "pagePath": "pages/news/news",
-      "text": "New"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Index"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "New"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
