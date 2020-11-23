@@ -1,2 +1,8 @@
 <!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<view class="container">
+  <view class="h1">{{header}}</view>
+
+  <view wx:for="{{stories}}" wx:key="story" id="{{index}}">
+    {{item.story}}
+  </view>
+</view>

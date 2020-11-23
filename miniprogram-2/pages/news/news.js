@@ -5,7 +5,8 @@ Page({
    * Page initial data
    */
   data: {
-
+    header : "This is a big title",
+    stories : [{story : "Mingalarpar"}, {story : "ni hao"},{ story : "bonjour"}]
   },
 
   /**
